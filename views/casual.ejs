@@ -1,0 +1,14 @@
+<body>
+
+<h1><%= datekey %></h1>
+<h2>Let's do this!!</h2>
+
+<%- include("list.ejs") %>
+
+    
+<% if (locals.task) { %>
+    <p>Your list of work includes <%= task %></p> 
+<% } %>
+
+</body>
+
